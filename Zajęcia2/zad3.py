@@ -1,6 +1,21 @@
-print('{:>20}'.format('prawa'))
-print('{:_<20}'.format('lewa'))
-print('{:^20}'.format('srodek'))
-print('{:.{prec}} = {:.{prec}f}'.format('wartosc',3.12461, prec=4))
-tab = [11,31,22,-16,5]
-print('{t[1]} {t[3]} {t[4]}'.format(t=tab))
+#------------------------------------------------
+#zad3 Przejdź na stronę https://pyformat.info/ a następnie zapisz w oddzielnym pliku .py
+# i wykonaj 5 wybranych przykładów formatowania ciągów oznaczonego jako „New”, których nie było w
+# przykładach z tego podrozdziału (np. z wyrównaniem, ilością pozycji liczby, znakiem itp.).
+#------------------------------------------------
+# -1-
+a='{} {}'.format('Testowy','tekst')
+print(a)
+# -2-
+b='{:>5}'.format('tekst po prawej')
+print(b)
+# - 3 -
+c='{first} {last}'.format(first='przykladowy',last='tekst')
+print(c)
+# - 4 -
+d='{:=+5d}'.format(31)
+print(d)
+# - 5 -
+dane = [12, 23, 34, 45, 56]
+e='{d[2]} {d[3]}'.format(d=dane)
+print(e)
