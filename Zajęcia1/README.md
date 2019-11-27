@@ -1,0 +1,1 @@
+Zajęcia 1 - Stworzenie repozytorium.

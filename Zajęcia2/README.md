@@ -1,0 +1,1 @@
+Zajęcia 2 : Wprowadzenie do Pythona 1.
